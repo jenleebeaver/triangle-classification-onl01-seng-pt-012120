@@ -12,7 +12,7 @@ class Triangle
     validate_triangle
     if a == b && b == c
       :equilateral
-    elseif a == b || b == c || a == c
+    elsif a == b || b == c || a == c
       :isosceles
     else
       :scalene
