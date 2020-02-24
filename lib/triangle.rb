@@ -9,14 +9,14 @@ class Triangle
   end
 
   def kind
-    validate_triangle 
-    if a == b && b == c 
+    validate_triangle
+    if a == b && b == c
       :equilateral
-    elseif a == b || b == c || a == c 
+    elseif a == b || b == c || a == c
       :isosceles
     else
       :scalene
     end
   end
-  
+
 end
