@@ -1,5 +1,5 @@
 class Triangle
-  
+
   attr_reader :a, :b, :c
 
   def initialize(a, b, c)
@@ -8,6 +8,6 @@ class Triangle
     @c = c
   end
 
-  def kind 
+  def kind
   end
 end
